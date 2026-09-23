@@ -32,7 +32,7 @@ library(stringr)       # For string manipulation
 # -----------------------------------------
 
 # Define the root directory where your data files are located
-root_dir <- "/Users/noamgoldway/Library/CloudStorage/Box-Box/Goldway, Noam/ketamine brain states/manuscript/data"
+root_dir <- "."  # set to the folder containing the data files (CADSS.csv, demog_k.csv, ...); "." = repository root
 
 # Ketamine group subject IDs
 k_subji_with_brain_data <- c(
